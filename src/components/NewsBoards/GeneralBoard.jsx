@@ -13,7 +13,7 @@ export const GeneralBoard = () => {
       setArticles(data.articles);
     },[])
     // useEffect(()=>{
-    //     const url=`https://newsapi.org/v2/top-headlines?country=us&apiKey=d2d2290f45794a78bbf1ab2a9d4f31cc}`;
+        // const url=`https://newsapi.org/v2/top-headlines?country=us&apiKey=${import.meta.env.NEWS_API_KEY}`;
     //     const fetchArticles = async () => {
     //         try {
     //           const response = await fetch(url);
